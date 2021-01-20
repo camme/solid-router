@@ -19,7 +19,7 @@
     "build:js": "rollup -c",
     "build:types": "tsc",
     "watch": "rollup -c -w",
-    "prebuild": "rm -rf dist"
+    "prebuild": "rm -rf dist && build"
   },
   "files": [
     "dist",
